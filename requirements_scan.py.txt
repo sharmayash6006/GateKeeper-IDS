@@ -1,0 +1,14 @@
+# Dead Man's Switch – Python Dependencies
+# Install with:  pip install -r requirements.txt
+
+# ── Choose ONE scanning library (scapy is preferred) ──
+scapy>=2.5.0          # Best option: raw ARP scanning, no external tools needed
+
+# python-nmap>=0.7.1  # Alternative if scapy doesn't work on your OS
+                      # Requires nmap to be installed separately:
+                      #   Linux:   sudo apt install nmap
+                      #   macOS:   brew install nmap
+                      #   Windows: https://nmap.org/download.html
+
+# ── Standard library modules used (no install needed) ──
+# csv, json, os, smtplib, socket, subprocess, time, datetime, argparse
